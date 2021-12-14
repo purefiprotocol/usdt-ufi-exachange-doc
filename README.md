@@ -55,6 +55,8 @@ trustee-public-key:     |   *String*
 trustee-timestamp:     |   *String*
 trustee-signature:     |   *String*
 
+[How it works](https://github.com/dziadevych/USDT2UFI/blob/main/README.md#how-get-authorization-headers-for-post-requests)
+
 **Body:** (--data-raw)
 ```
 {
@@ -89,6 +91,8 @@ KEY   |    type
 trustee-public-key:     |   *String*
 trustee-timestamp:     |   *String*
 trustee-signature:     |   *String*
+
+[How it works](https://github.com/dziadevych/USDT2UFI/blob/main/README.md#how-get-authorization-headers-for-post-requests)
 
 **Body:** (--data-raw)
 ```
