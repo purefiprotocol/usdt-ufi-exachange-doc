@@ -155,6 +155,8 @@ Response Examle:
  
  # How get authorization headers for POST requests
  
+ Authorize headers generate like for [trustee wallet](https://github.com/trustee-wallet/trustee_universal_providers_interface/blob/master/signature.js).
+ 
  Send us your Name and Email. We`ll generate API PUBLIC_KEY and PRIVATE_KEY for you.
  
- Authorize headers generate like for [trustee wallet](https://github.com/trustee-wallet/trustee_universal_providers_interface/blob/master/signature.js)
+
