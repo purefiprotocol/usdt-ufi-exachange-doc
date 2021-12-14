@@ -60,7 +60,7 @@ trustee-signature:     |   *String*
 **Body:** (--data-raw)
 ```
 {
-    "from": {currancy (USDTTRC20 or USDTTRC20)}
+    "from": {currency (USDTTRC20 or USDTTRC20)}
     "to": "BSC_UFI",
     "fromAmount": {amount in USDT}
 } 
@@ -97,7 +97,7 @@ trustee-signature:     |   *String*
 **Body:** (--data-raw)
 ```
 {
-    "from": {currancy (USDTTRC20 or USDTTRC20)}
+    "from": {currency (USDTTRC20 or USDTTRC20)}
     "to": "BSC_UFI",
     "fromAmount": {amount in USDT}
     "toPaymentDetails": {addres for UFIBEP20}
