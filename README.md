@@ -111,11 +111,6 @@ Format | JSON
 Success: |   { <br>  "id": "163a9ff7c4996793c0321c606149c2f6", <br>  "from": "USDTERC20", <br>  "to": "BSC_UFI", <br>  "fromAmount": 15.00555, <br>  "toAmount": 88.2535246, <br>  "status": "WAITING", <br>  "fromPaymentDetails": "", <br>  "toPaymentDetails": "0x5CcBCf9a648d5194106dAbFB42918B29971dd740", <br>  "payCryptoAddress": "0x69dA9343ba5e42A996Ba69422059ed1F445E78aD", <br>  "fromTxHash": "", <br>  "toTxHash": null, <br>  "rateType": "FLOATING", <br>  "userId": "", <br>  "payCryptoMemo": "", <br>  "toMemo": "", <br>  "extraFromFee": 0, <br>  "extraToFee": 0, <br>  "fromFee": 0, <br>  "toFee": 0, <br>  "fromRevenueShare": 0, <br>  "toRevenueShare": 0 <br>  }
 Error: |  {  <br>  "errorCode": `ERROR_CODE`, <br>  "message": ```error message```}
 
-Error Examle:
-{
-    "errorCode": "PROVIDER_ERROR",
-    "message": "Unsupported TO asset code"
-}
 # To get order status:
 
 Method: **/order**   
@@ -123,7 +118,7 @@ Method: **/order**
 Type: **GET**
 
 **Query Param:** id
-from [Place response]() 
+from [Place response](https://github.com/dziadevych/USDT2UFI/blob/main/README.md#to-exchange) 
 ` order/?id= `
 
 Response Examle:
@@ -153,3 +148,9 @@ Response Examle:
     "toRevenueShare": 0
 }
 ```
+ 
+ # How get authorization headers for POST requests
+ 
+ Send us your Name and Email. We`ll generate API PUBLIC_KEY and PRIVATE_KEY for you.
+ 
+ Authorize headers generate like for [trustee wallet](https://github.com/trustee-wallet/trustee_universal_providers_interface/blob/master/signature.js)
