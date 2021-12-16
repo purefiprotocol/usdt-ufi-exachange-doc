@@ -13,35 +13,35 @@ Response Examle:
 
 ```
 
+<?xml version='1.0' encoding='utf-8'?>
 <rates>
     <item>
-        <from>USDT</from>
+        <from>USDTTRC20</from>
         <to>UFI</to>
         <in>1.00000</in>
-        <out>11.18943</out>
-        <amount>75.94150</amount>
-        <fromfee>0.0 USDT</fromfee>
+        <out>5.95635</out>
+        <amount>55.88191</amount>
+        <fromfee>0.0 USDTTRC20</fromfee>
         <tofee>0.0 UFI</tofee>
         <fromnetwork>TRX</fromnetwork>
         <tonetwork>BSC</tonetwork>
-        <minamount>10.00000 USDT</minamount>
-        <maxamount>75.94150 USDT</maxamount>
+        <minamount>11.00000 USDTTRC20</minamount>
+        <maxamount>55.88191 USDTTRC20</maxamount>
     </item>
     <item>
-        <from>USDT</from>
+        <from>USDTERC20</from>
         <to>UFI</to>
         <in>1.00000</in>
-        <out>11.18943</out>
-        <amount>75.94150</amount>
-        <fromfee>0.0 USDT</fromfee>
+        <out>5.95635</out>
+        <amount>55.88191</amount>
+        <fromfee>0.0 USDTERC20</fromfee>
         <tofee>0.0 UFI</tofee>
         <fromnetwork>ETH</fromnetwork>
         <tonetwork>BSC</tonetwork>
-        <minamount>10.00000 USDT</minamount>
-        <maxamount>75.94150 USDT</maxamount>
+        <minamount>11.00000 USDTERC20</minamount>
+        <maxamount>55.88191 USDTERC20</maxamount>
     </item>
 </rates>
-
 
 ```
 
@@ -65,7 +65,7 @@ trustee-signature:     |   *String*
 **Body:** (--data-raw)
 ```
 {
-    "from": {currency (USDT)},
+    "from": {currency (USDTTRC20, USDTERC20)},
     "fromNetwork": {currency network(TRX, ETH)},
     "to": "UFI",
     "toNetwork": "BSC",
