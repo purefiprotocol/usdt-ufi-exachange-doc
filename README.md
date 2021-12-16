@@ -5,7 +5,7 @@ USDT2UFI Docs
 
 # To get rates:
 
-Method: **/rates**   
+Method: **/rates.xml**   
 
 Type: **GET**
 
