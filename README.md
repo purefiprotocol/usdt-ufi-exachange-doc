@@ -140,7 +140,7 @@ Response Examle:
  {
     "id": "163a9ff7c4996793c0321c606149c2f6",
     "from": "USDTERC20",
-    "to": "BSC_UFI",
+    "to": "UFI",
     "fromAmount": 15.00555,
     "toAmount": 88.2535246,
     "status": "WAITING",
@@ -158,7 +158,8 @@ Response Examle:
     "fromFee": 0,
     "toFee": 0,
     "fromRevenueShare": 0,
-    "toRevenueShare": 0
+    "toRevenueShare": 0,
+     "toNetwork": "BSC"
 }
 ```
  
