@@ -81,7 +81,7 @@ Response Examle:
 
 Format | JSON
 ----- | -----
-Success: |   { {  <br>  "from": "USDT",  <br>  "to": "UFI",  <br>  "fromAmount": 11.001,  <br>  "toAmount": 86.5728604141579,  <br>  "fromRate": 1,  <br>  "toRate": 7.869544624503036,  <br>  "fromFee": 0,  <br>  "toFee": 0,  <br>  "extraFromFee": 0,  <br>  "extraToFee": 0,  <br>  "fromRevenueShare": 0,  <br>  "toRevenueShare": 0,  <br> "rateType": "FLOATING",  <br>  "fromNetwork": "TRX",  <br>  "toNetwork": "BSC"  <br>  }
+Success: |   { {  <br>  "from": "USDTTRC20",  <br>  "to": "UFI",  <br>  "fromAmount": 11.001,  <br>  "toAmount": 86.5728604141579,  <br>  "fromRate": 1,  <br>  "toRate": 7.869544624503036,  <br>  "fromFee": 0,  <br>  "toFee": 0,  <br>  "extraFromFee": 0,  <br>  "extraToFee": 0,  <br>  "fromRevenueShare": 0,  <br>  "toRevenueShare": 0,  <br> "rateType": "FLOATING",  <br>  "fromNetwork": "TRX",  <br>  "toNetwork": "BSC"  <br>  }
 Error: |  {  <br>  "errorCode": `ERROR_CODE`, <br>  "message": ```error message```}
 
 # To exchange:
@@ -104,7 +104,7 @@ trustee-signature:     |   *String*
 **Body:** (--data-raw)
 ```
 {
-    "from": {currency (USDT)},
+    "from": {currency (USDTTRC20, USDTERC20)},
     "fromNetwork": {currency network(TRX, ETH)},
     "to": "UFI",
     "toNetwork": "BSC",
@@ -121,7 +121,7 @@ Response Examle:
 
 Format | JSON
 ----- | -----
-Success: |   {  <br>  "id": "75638e269b6b64450384746b3f10734f",  <br>  "from": "USDT",  <br>  "to": "UFI",  <br>  "fromAmount": 11.004,  <br>  "toAmount": 86.59542297,  <br>  "status": "WAITING",  <br>  "fromPaymentDetails": "",  <br>  "toPaymentDetails": "0x5CcBCf9a648d5194106dAbFB42918B29971dd740",  <br>  "payCryptoAddress": "TXuw55LVgKHAmm5bxRckDie28JmaAZSQzr",  <br>  "fromTxHash": "",  <br>  "toTxHash": null,  <br>  "rateType": "FLOATING",  <br>  "userId": "",  <br>  "payCryptoMemo": "",  <br>  "toMemo": "",  <br>  "extraFromFee": 0,  <br>  "extraToFee": 0,  <br>  "fromFee": 0,  <br>  "toFee": 0,  <br>  "fromRevenueShare": 0,  <br>  "toRevenueShare": 0,  <br>  "fromNetwork": "TRX",  <br>  "toNetwork": "BSC"  <br>  }
+Success: |   {  <br>  "id": "75638e269b6b64450384746b3f10734f",  <br>  "from": "USDTTRC20",  <br>  "to": "UFI",  <br>  "fromAmount": 11.004,  <br>  "toAmount": 86.59542297,  <br>  "status": "WAITING",  <br>  "fromPaymentDetails": "",  <br>  "toPaymentDetails": "0x5CcBCf9a648d5194106dAbFB42918B29971dd740",  <br>  "payCryptoAddress": "TXuw55LVgKHAmm5bxRckDie28JmaAZSQzr",  <br>  "fromTxHash": "",  <br>  "toTxHash": null,  <br>  "rateType": "FLOATING",  <br>  "userId": "",  <br>  "payCryptoMemo": "",  <br>  "toMemo": "",  <br>  "extraFromFee": 0,  <br>  "extraToFee": 0,  <br>  "fromFee": 0,  <br>  "toFee": 0,  <br>  "fromRevenueShare": 0,  <br>  "toRevenueShare": 0,  <br>  "fromNetwork": "TRX",  <br>  "toNetwork": "BSC"  <br>  }
 Error: |  {  <br>  "errorCode": `ERROR_CODE`, <br>  "message": ```error message```}
 
 # To get order status:
